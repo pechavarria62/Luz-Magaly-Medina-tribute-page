@@ -1,0 +1,99 @@
+<!--agregar una serie de fotos para seguir mañana-->
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js."></script>
+  
+    <style>
+      
+      img {
+        max-width: 100%;
+        display: block;
+        height: auto;
+      }
+      .row {
+         display: flex;
+         flex-wrap: wrap;
+         padding: 0 4px;
+      }
+      
+      
+      .column {
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+      }
+      
+      .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+      }
+      
+      
+      @media screen and (max-width: 800px) {
+        .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+      }
+      
+      
+      @media screen and (max-width: 600px) {
+        .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+      }
+      p{
+        text-align: center;
+      }
+      h1{
+        text-align: center;
+      }
+      
+      
+  
+      
+    </style>
+</head>
+<body>
+  
+    <div id="main"> 
+      <h1 id="title">Luz Magaly Medina Angomas</h1>
+
+      <div id="img-div">
+          <div class="row">
+           <div class="column"></div>
+             <div class="column">
+               <img class="responsive-img" src="images/magaly2.jpg" alt=" A picure of Magaly Medina sitting on her favorite couch " id="image">
+               <img class="responsive-img"src="images/Magaly-in-her-office.jpg" alt=" Magaly in her office " id="image">
+               <img class="responsive-img"src="images/Magaly-her-mom-&-a-nephew.jpg" alt=" Magaly her mom & a nephew " id="image" >
+               <img class="responsive-img"src="images/Magaly-medina.jpg" alt=" Photo of Magaly medina" id="image" >
+              </div>
+             <div class="column">
+               <img class="responsive-img"src="images/Magaly-at-her-daughter-wedding.jpg" alt=" Magaly at her daughter wedding " id="image">
+               <img class="responsive-img"src="images/Magaly-and-her-son.jpg" alt=" Magaly and her son " id="image">
+               <img class="responsive-img"src="images/Magaly & her kids.jpg" alt=" Magaly & her kids " id="image">
+               <img class="responsive-img"src="images/In-the-Dominican-carnaval.jpg" alt=" In the Dominican carnaval " id="image">
+              </div> 
+            <div class="column"></div>  
+          </div>
+      </div>
+       
+              <p id="img-caption">journalist and master of ceremonies Luz Magaly Medinammm</p>
+                
+        <div id="tribute-info">
+          <p>
+            Born in 1954, died in 2013 Luz Magaly Medina was an outstanding journalist, broadcaster and master of ceremonies who worked for many years
+            <br>for the Micheli  Circuit and opinion programs, as well as public relations officer for Inespre in La Romana in the past
+            government of <br> former President Hipólito Mejía and member of the Dominican Association of Journalists since its creation.
+            She was also the mother of <br>fellow broadcaster  Jessica Medina and entrepreneur and software engineer Pedro Echavarria.
+          
+          </p>
+        </div>
+            <a href="http://blancoynegro04.blogspot.com/2013/05/perdio-la-vida-una-luchadora-se-apago.html" target="_blank" id="tribute-link">
+      </a>
+    </div>
+</body>
+</html>
